@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Content Generator for Eco E-Commerce
 
-## Getting Started
+![App Screenshot](public/vercel.svg)
 
-First, run the development server:
+A Next.js app that uses AI to generate Polish content for eco-friendly products. Built for small businesses in Poland to quickly create descriptions, posts, and blogs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This tool helps eco e-commerce owners generate high-quality, SEO-optimized content in Polish using OpenAI. Monetized via Stripe subscriptions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
+- AI-powered content generation
+- User authentication with Supabase
+- Payment integration with Stripe
+- Responsive UI with Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Clone the repo
+2. npm install
+3. Set up .env.local with SUPABASE_URL, SUPABASE_ANON_KEY, OPENAI_API_KEY, STRIPE_SECRET_KEY
+4. npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sign up, subscribe, input product details, generate content!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Fork and PR. Issues welcome!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by [Your Name]
